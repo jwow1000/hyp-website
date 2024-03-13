@@ -1,15 +1,19 @@
 import "./Home.css";
-import {NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function Home() {
   return (
     <div id="homeContainer-Home">
         <div className='grayBox-Home' id="whoWeAre-Home"> 
-            <NavLink  > Who We Are </NavLink>
+            <Link  > Who We Are </Link>
                 <ul>
                     <li> Overall Vision </li>
                     <li> Manifesto </li>
                 </ul>
+        </div>
+
+        <div className='grayBox-Home' id="clinicPink-Home">
+          <Link> Clinic Waitlist + Overview </Link>
         </div>
     </div>
   )
