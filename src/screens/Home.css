@@ -1,0 +1,13 @@
+#homeContainer-Home {
+
+}
+
+.grayBox-Home {
+    background-color:  #eaeaea; 
+    border-radius: 0.5rem;
+}
+
+#whoWeAre-Home {
+    width: 40vw;
+    height: 20vh;
+}
