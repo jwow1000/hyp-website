@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 function Home() {
   return (
     <div id="homeContainer-Home">
-        <div className='grayBox-Home' id="whoWeAre-Home"> 
+        <div className='bubble bubbleGray' id="whoWeAre-Home"> 
             <Link  > Who We Are </Link>
                 <ul>
                     <li> Overall Vision </li>
@@ -12,7 +12,7 @@ function Home() {
                 </ul>
         </div>
 
-        <div className='grayBox-Home' id="clinicPink-Home">
+        <div className='bubble bubblePink' id="clinicPink-Home">
           <Link> Clinic Waitlist + Overview </Link>
         </div>
     </div>
