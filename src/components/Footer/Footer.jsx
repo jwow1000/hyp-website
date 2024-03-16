@@ -1,8 +1,19 @@
-import React from 'react'
+import { NavLink } from "react-router-dom";
+import './Footer.css';
 
 function Footer() {
+  
+
   return (
-    <div>Footer</div>
+    <div id='container-Footer'>
+      <NavLink 
+        className='navLinks-Footer'
+        to='/'
+      >
+        home
+      </NavLink>
+
+    </div>
   )
 }
 

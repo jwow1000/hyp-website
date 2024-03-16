@@ -1,0 +1,21 @@
+#container-Footer {
+    position: absolute;
+    bottom: 0%;
+    background-color: black;
+    height: 10rem;
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.info-Footer {
+    color: #e0e0e0;
+}
+
+.navLinks-Footer {
+    color: #e0e0e0;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}

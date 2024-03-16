@@ -17,6 +17,10 @@ function Home() {
         <div className='bubble bubblePink' id="clinicPink-Home">
           <Link className="linkYellow"> Clinic Waitlist + Overview </Link>
         </div>
+
+        <div className='bubble bubbleGray' id="whatIsHyp-Home">
+          <Link className="linkYellow"> What is Hyp? </Link>
+        </div>
     </div>
     
   )

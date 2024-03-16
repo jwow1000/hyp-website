@@ -1,8 +1,10 @@
 #homeContainer-Home {
+    width: 80vw;
+    margin: 0 10vw 0 10vw ;
     display: flex;
     flex-flow: row wrap;
     gap: 1rem;
-    justify-content: center;
+    justify-content: space-between;
     
 }
 
@@ -12,18 +14,20 @@
 }
 
 #whoWeAre-Home {
-    width: 40vw;
-    height: 20vw;
+    text-align: left;
+    width: 50vw;
+    height: 15rem;
 }
 
 #clinicPink-Home {
     background-color: #ed1e79;
-    width: 10vw;
-    height: 20vw;
+    width: 20vw;
+    height: 15rem;
     
 }
 
-Link {
-   color: #fff2cd;
-
+#whatIsHyp-Home {
+    width: 81vw;
+    height: 12rem;
 }
+

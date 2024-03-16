@@ -1,7 +1,8 @@
 body {
   height: 100vh;
   margin: 0;
-  font-size: 1rem;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  
 }
 
 /* ------------ text info bubbles used in main route pages ---------- */
@@ -12,11 +13,13 @@ body {
 }
 
 .bubbleGray {
-  background-color: #eaeaea;
+  background-color: #c2c2c2;
+  box-shadow: 0 0 20px #c2c2c2;
 }
 
 .bubblePink {
   background-color: #ed1e79;
+  box-shadow: 0 0 20px #ed1e79;
 }
 
 .bubbleRed {
@@ -25,6 +28,8 @@ body {
 }
 
 .linkYellow {
-  color: #ffae0d;
+  color: #ffdb0d;
   font-weight: bold;
+  font-size: 1.5rem;
+  /* text-shadow: 0 0 20px #ffdb0d ; */
 }

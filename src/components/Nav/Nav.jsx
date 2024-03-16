@@ -1,5 +1,4 @@
 import {NavLink} from 'react-router-dom';
-import { useState } from 'react';
 import "./Nav.css";
 
 
@@ -9,14 +8,14 @@ function Nav() {
   return (
     <div id="background-Nav">
       <NavLink 
-        id="home-Nav" 
+        id="homeLogo-Nav" 
         to="/" 
         className={({ isActive }) => (isActive ? 'active-Nav' : 'link-Nav')}
       >
         <img 
           src="../../images/Logo_GOOEY_H_Soft2.png" 
           alt="hyp access logo" 
-          id="navLogo-Nav"
+          id="logoImg-Nav"
         />
       </NavLink>
       
