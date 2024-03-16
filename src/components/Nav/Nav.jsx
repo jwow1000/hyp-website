@@ -18,7 +18,14 @@ function Nav() {
           alt="hyp access logo" 
           id="navLogo-Nav"
         />
-        <p className='link-Nav'>hyp + access</p>
+      </NavLink>
+      
+      <NavLink
+        id="logoLabel-Nav"
+        to="/" 
+        className={({ isActive }) => (isActive ? 'active-Nav' : 'link-Nav')} 
+      >
+        hyp+access
       </NavLink>
       <div id="navContainer-Nav">
 
@@ -37,10 +44,10 @@ function Nav() {
           </NavLink>
 
           <NavLink 
-             to="/resarch" 
+             to="/research" 
             className={({ isActive }) => (isActive ? 'active-Nav' : 'link-Nav')}
           >
-              resarch
+              research
           </NavLink>
 
           <NavLink 

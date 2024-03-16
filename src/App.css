@@ -1,17 +1,18 @@
 body {
   height: 100vh;
   margin: 0;
+  font-size: 1rem;
 }
 
+/* ------------ text info bubbles used in main route pages ---------- */
 .bubble {
   border-radius: 0.5rem;
   text-align: center;
-  padding: 2rem;
+ 
 }
 
 .bubbleGray {
   background-color: #eaeaea;
-
 }
 
 .bubblePink {
@@ -21,4 +22,9 @@ body {
 .bubbleRed {
   background-color: #91017b;
   color: white;
+}
+
+.linkYellow {
+  color: #ffae0d;
+  font-weight: bold;
 }
