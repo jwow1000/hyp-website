@@ -1,0 +1,29 @@
+#container-About {
+    width: 80vw;
+    margin: 0 10vw 0 10vw ;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    
+}
+
+.hypArticles-About {
+    text-align: left;
+    color: #ed1e79;
+    width: 50vw;
+    height: 15rem;
+}
+
+#clinicPink-About {
+    background-color: #ed1e79;
+    width: 20vw;
+    height: 15rem;
+    
+}
+
+#whatIsHyp-About {
+    width: 81vw;
+    height: 12rem;
+}
+

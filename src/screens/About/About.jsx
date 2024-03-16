@@ -1,8 +1,13 @@
 import React from 'react'
 
 function About() {
+  // function to fill array of article links
+  
   return (
-    <div>About</div>
+    <div id='container-About'>
+      {}
+
+    </div>
   )
 }
 
