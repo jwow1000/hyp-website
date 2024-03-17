@@ -1,0 +1,14 @@
+{ "articles": 
+    [
+        {
+            "title": "Good To Know",
+            "body": "<em>Good 2 know</em> <em>Good 2 know</em> ",
+            "link": "https://google.com"
+        },
+        {
+            "title": "Also Good To Know",
+            "body": "<em>alos Good 2 know</em> <em>Good 2 know</em> ",
+            "link": "https://www.linkedin.com"
+        }
+    ]
+}
