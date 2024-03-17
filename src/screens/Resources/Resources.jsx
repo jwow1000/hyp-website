@@ -18,7 +18,7 @@ function Resources() {
     <div id='container-Resources' >
         <h1>ARTICLES</h1>
         {
-            (articles) ? 
+            (articles.articles) ? 
                 articles.articles.map( (article, id) => (
                     <ArticlePreview 
                         article={article}
