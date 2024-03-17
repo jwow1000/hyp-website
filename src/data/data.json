@@ -2,7 +2,7 @@
     [
         {
             "title": "Good To Know",
-            "body": "<em>Good 2 know</em> <em>Good 2 know</em> ",
+            "body": "# Heading 1 \n ##Heading 2 this is soem text about articles",
             "link": "https://google.com"
         },
         {

@@ -1,8 +1,9 @@
 
 import { useEffect, useState } from "react";
-import axios from "axios";
 import articlesData from '../../data/data.json';
 import ArticlePreview from '../../components/ArticlePreview/ArticlePreview.jsx';
+
+import './Resources.css';
 
 
 function Resources() {
@@ -12,7 +13,7 @@ function Resources() {
     useEffect( () => {
         setArticles(articlesData);
     }, []);
-    console.log(articles);
+    
     
     return (
     <div id='container-Resources' >
