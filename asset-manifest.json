@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/hyp-website/static/css/main.b76d85c2.css",
-    "main.js": "/hyp-website/static/js/main.d5111544.js",
+    "main.js": "/hyp-website/static/js/main.d015cbbc.js",
     "static/js/453.40b3af91.chunk.js": "/hyp-website/static/js/453.40b3af91.chunk.js",
+    "static/media/Logo_GOOEY_H_Soft2.png": "/hyp-website/static/media/Logo_GOOEY_H_Soft2.918798a24791e7e3a144.png",
     "index.html": "/hyp-website/index.html",
     "main.b76d85c2.css.map": "/hyp-website/static/css/main.b76d85c2.css.map",
-    "main.d5111544.js.map": "/hyp-website/static/js/main.d5111544.js.map",
+    "main.d015cbbc.js.map": "/hyp-website/static/js/main.d015cbbc.js.map",
     "453.40b3af91.chunk.js.map": "/hyp-website/static/js/453.40b3af91.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b76d85c2.css",
-    "static/js/main.d5111544.js"
+    "static/js/main.d015cbbc.js"
   ]
 }
