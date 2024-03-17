@@ -5,9 +5,9 @@ import './Layout.css';
 function Layout(props) {
   
   return (
-    <div className='container-Layout'>
+    <div id='container-Layout'>
       <Nav/>
-      <div className="children-Layout">
+      <div id="body-Layout" >
           {props.children}
       </div>
       

@@ -1,9 +1,8 @@
 #container-Footer {
-    position: absolute;
-    bottom: 0%;
     background-color: black;
-    height: 10rem;
+    height: 6rem;
     width: 100vw;
+    
     display: flex;
     flex-flow: column;
     align-items: center;

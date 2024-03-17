@@ -16,19 +16,21 @@ function Resources() {
     
     
     return (
-    <div id='container-Resources' >
+    <div className="page-wrap" >
         <h1>ARTICLES</h1>
-        {
-            (articles.articles) ? 
-                articles.articles.map( (article, id) => (
-                    <ArticlePreview 
-                        article={article}
-                        key={id}
-                    />
-                
-                ))
-            : null
-        }
+        <div id='container-Resources'>
+            {
+                (articles.articles) ? 
+                    articles.articles.map( (article, id) => (
+                        <ArticlePreview 
+                            article={article}
+                            key={id}
+                        />
+                    
+                    ))
+                : null
+            }
+        </div>
 
     </div>
   )
